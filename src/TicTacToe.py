@@ -50,3 +50,6 @@ def full_board_check(board):
         return False
     else:
         return True
+
+
+def player_choice(board):
