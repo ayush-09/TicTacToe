@@ -12,3 +12,9 @@ def player_input():  # Asking Player1 to choose X or O
     while marker != 'X' and marker != 'O':
         marker = input('Player 1,Choose X or O: ').upper()
     player1 = marker
+
+    if player1 == 'X':
+        player2 == 'O'
+    else:
+        player2 = 'X'
+    return (player1, player2)
