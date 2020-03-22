@@ -34,4 +34,8 @@ def win_check(board, mark):
 
 
 def choose_first():
-    f = random.randi
+    f = random.randint(0, 1)
+    if f == 0:
+        return 'Player 1'
+    else:
+        return 'Player 2'
