@@ -10,3 +10,4 @@ def display_board(board):  # display the board
 def player_input():  # Asking Player1 to choose X or O
     marker = ''
     while marker != 'X' and marker != 'O':
+        marker = input('Player 1,Choose X or O: ').upper()
