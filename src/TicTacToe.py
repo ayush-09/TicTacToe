@@ -21,3 +21,4 @@ def player_input():  # Asking Player1 to choose X or O
 
 
 def place_marker(board, marker, position):
+    board[position] = marker
