@@ -39,3 +39,6 @@ def choose_first():
         return 'Player 1'
     else:
         return 'Player 2'
+
+
+def space_check(board, position):
