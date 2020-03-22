@@ -1,3 +1,5 @@
+import random
+
 def display_board(board):  # display the board
     print('|', end="")
     print(board[1] + board[2] + board[3] + '|')
@@ -32,3 +34,4 @@ def win_check(board, mark):
 
 
 def choose_first():
+    f = random.randi
