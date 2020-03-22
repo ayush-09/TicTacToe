@@ -25,3 +25,5 @@ def place_marker(board, marker, position):
 
 
 def win_check(board, mark):
+    return (board[1] == board[2] == board[3] == mark) or (board[4] == board[5] == board[6] == mark) or (
+                board[7] == board[8] == board[9] == mark)
