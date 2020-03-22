@@ -18,3 +18,6 @@ def player_input():  # Asking Player1 to choose X or O
     else:
         player2 = 'X'
     return (player1, player2)
+
+
+def place_marker(board, marker, position):
