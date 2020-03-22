@@ -7,4 +7,6 @@ def display_board(board):  # display the board
     print(board[7] + board[8] + board[9] + '|')
 
 
-def player_input():
+def player_input():  # Asking Player1 to choose X or O
+    marker = ''
+    while marker != 'X' and marker != 'O':
