@@ -1,6 +1,5 @@
+
 import random
-
-
 def display_board(board):  # display the board
     print('|', end="")
     print(board[1] + board[2] + board[3] + '|')
@@ -17,7 +16,7 @@ def player_input():  # Asking Player1 to choose X or O
     player1 = marker
 
     if player1 == 'X':
-        player2 == 'O'
+        player2 = 'O'
     else:
         player2 = 'X'
     return (player1, player2)
@@ -69,7 +68,7 @@ def replay():
 print('Welcome To Tic Tac Toe')
 while True:
     the_board = [' '] * 10
-    player1_marker, plyer2_marker = player_input()
+    player1_marker, player2_marker = player_input()
     turn = choose_first()
     print(turn + 'will goo first')
     play_game = input('Ready to play?y or n?')
