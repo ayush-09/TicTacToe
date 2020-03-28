@@ -85,3 +85,6 @@ while True:
             place_marker(the_board, player1_marker, position)
 
             if win_check(the_board, player1_marker):
+                display_board(the_board)
+                print('Player 1 HAS WON')
+                game_on = False
