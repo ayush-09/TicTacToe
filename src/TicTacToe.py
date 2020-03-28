@@ -68,3 +68,12 @@ def replay():
 
 print('Welcome To Tic Tac Toe')
 while True:
+    the_board = [' '] * 10
+    player1_marker, plyer2_marker = player_input()
+    turn = choose_first()
+    print(turn + 'will goo first')
+    play_game = input('Ready to play?y or n?')
+    if play_game == 'y' or 'Y':
+        game_on = True
+    else:
+        game_on = False
