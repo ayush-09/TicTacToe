@@ -61,3 +61,4 @@ def player_choice(board):
 
 
 def replay():
+    choice = input('you wanna play again? Enter Yes or No')
