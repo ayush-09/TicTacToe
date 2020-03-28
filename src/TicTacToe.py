@@ -64,3 +64,7 @@ def replay():
     choice = input('you wanna play again? Enter Yes or No')
 
     return choice == 'Yes'
+
+
+print('Welcome To Tic Tac Toe')
+while True:
