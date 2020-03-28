@@ -95,3 +95,19 @@ while True:
                     game_on = False
                 else:
                     turn = 'Player 2'
+        else:
+            display_board(the_board)  # Show the board
+            position = player_choice(the_board)  # CHOICE A POSITION
+            place_marker(the_board, player2_marker, position)  # PLACE THEE MARKER ON POSITION
+
+            if win_check(the_board, player2_marker):  # CHECK IF THEY WON
+                display_board(the_board)
+                print('Player 2 HAS WON')
+                game_on = False
+            else:
+                if full_board_check(the_board):
+                    display_board(the_board)
+                    print('TIE GAME!')
+                    game_on = False
+                else:
+                    turn = 'Player 1'
