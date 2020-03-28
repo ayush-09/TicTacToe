@@ -83,3 +83,5 @@ while True:
             display_board(the_board)
             position = player_choice(the_board)
             place_marker(the_board, player1_marker, position)
+
+            if win_check(the_board, player1_marker):
