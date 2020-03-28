@@ -111,3 +111,9 @@ while True:
                     game_on = False
                 else:
                     turn = 'Player 1'
+    if not replay():
+        if play_game == 'n':
+            print('BYE! Have A Good Day')
+        else:
+            print('Thanks for playing')
+        break
