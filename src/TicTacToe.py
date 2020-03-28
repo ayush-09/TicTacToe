@@ -88,3 +88,10 @@ while True:
                 display_board(the_board)
                 print('Player 1 HAS WON')
                 game_on = False
+            else:
+                if full_board_check(the_board):
+                    display_board(the_board)
+                    print('TIE GAME!')
+                    game_on = False
+                else:
+                    turn = 'Player 2'
