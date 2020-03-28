@@ -77,3 +77,5 @@ while True:
         game_on = True
     else:
         game_on = False
+
+    while game_on:
