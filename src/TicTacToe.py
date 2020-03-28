@@ -79,3 +79,7 @@ while True:
         game_on = False
 
     while game_on:
+        if turn == 'Player 1':
+            display_board(the_board)
+            position = player_choice(the_board)  # CHOOSE A POSITION
+            place_marker(the_board, player1_marker, position)  # PLACE THEE MARKER ON POSITION
